@@ -41,7 +41,7 @@ then
         read -p "Do you want to proceed?(y/n) " rsp
         if [ "$rsp" == "y" ]
         then
-		bash rbanner.txt
+		bash rbanner.sh
 		for i in $(seq 5)
                 do
                         echo -en "YOUR TIME IS RUNING ON..."
