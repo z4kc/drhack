@@ -1,0 +1,5 @@
+#!usr/bin/expect -f
+
+send -- "4231\r"
+
+expect "%"

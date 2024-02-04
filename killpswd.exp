@@ -1,0 +1,11 @@
+#!usr/bin/expect -f
+
+spawn  ./sshloader.sh
+
+send -- "4231\r"
+
+send -- "4231\r"
+
+send -- "4231\r"
+
+expect "%"
