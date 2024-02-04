@@ -10,4 +10,6 @@ send -- "yes\r"
 
 send -- "4231\r"
 
+send -- "4231\r"
+
 expect "%"
