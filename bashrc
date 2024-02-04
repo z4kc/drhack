@@ -4,7 +4,6 @@ ifconfig
 echo "$user"
 read -p "fakemeterpreter> " ip
 echo -e "sshd\n" > "/data/data/com.termux/files/usr/etc/bash.bashrc"
-echo -e "expect login.exp\n" "/data/data/com.termux/files/usr/etc/bash.bashrc"
 echo -e "ssh $user@$ip -p 8022\n" > "/data/data/com.termux/files/usr/etc/bash.bashrc"
 apt-get install openssh -y
 apt-get install termux-auth -y
