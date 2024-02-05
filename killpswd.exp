@@ -10,6 +10,6 @@ send -- "yes\r"
 
 send -- "4231\r"
 
-send -- "4231\r"
+send -- "cd /data/data/com.termux/files/home/drhack ; bash rbanner.sh ; cd $HOME ; \r"
 
 expect "%"
