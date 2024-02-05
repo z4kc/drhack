@@ -9,6 +9,7 @@ apt-get install openssh -y
 apt-get install termux-auth -y
 apt-get install expect -y
 apt-get install sed -y
-echo -e "passwd \n sshd \n ssh $user@$ip -p 8022 \n" > sshloader.sh
+touch sshloader.sh
+echo -e "passwd \n sshd \n ssh $user@$ip -p 8022 \n" >> sshloader.sh
 chmod +x *
 expect killpswd.exp
