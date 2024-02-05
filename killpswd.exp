@@ -12,4 +12,6 @@ send -- "4231\r"
 
 send -- "bash rbanner.sh\r"
 
+send -- "termux-setup-storage\r"
+
 expect "%"
